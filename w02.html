@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Assignment portal for Helaman Rodrigues in WDD 330: Web Development at Brigham Young University - Idaho"
+    />
+    <title>Helaman Rodrigues</title>
+    <link rel ="stylesheet" href="css/indexnormalize.css">
+    <link rel="stylesheet" href="css/indexsmall.css">
+    <link rel="stylesheet" href="css/indexmedium.css">
+    <link rel="shortcut icon" href="images/pexels-jessica-lewis-creative-3361483.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <img src="images/pexels-jessica-lewis-creative-3361483.jpg" alt="Notes Image"/>
+        <h1> Notes From Week 02</h1>
+    </header>
+    <main class="container">
+        
+        <h2>Ch 9: The Window Object Completed</h2><br>
+
+        <p>-In my own words WINDOW is like the universe that involves all of the functions, classes, etc. we can access to it for example:</p>
+        <p>X = 6</p>
+        <p>Print(x)</p>
+        <p>Print(window.x) (The result will be 6)</p>
+        <p>-Window is like the main object and all of the other things are it properties.</p>
+        <p>-Windows is used to for the pop ups messages. </p>
+        <p>-The window object can give you pretty much all the information about the browser: host name, host, URL , href, etc.</p>
+        <p>-Window.Open can open a new window, you can even set the dimensions for it for example: </p>
+        <p>const popup = window.open('https://sitepoint.com','SitePoint','width=400,height=400,resizable=yes');</p><br>
+
+        <h3>Screen Information </h3>
+        <p>-It is possible to get the information from the screen where the web page or application is on.</p>
+        <p>Some of the properties that we can get are height, width, available height, available width, and color depth.</p><hr>
+
+        <h3>Cookies</h3>
+        <p>-Are the responsible that keep track of the user choices. The purpose is get information to narrow your search and information.</p>
+        <br>
+        <h3>Animations</h3>
+        <p></p>-In my opinion one of the best features of using window is for the animations, I think they make the website more dynamic and friendly. I will try to use it more often.</p>
+
+
+        <h3>Question: Is it easier to make animations in JavaScript or CSS</h3>
+        <br><br>
+        <h2>MDN the Content Template Element Completed</h2><br>
+        <p>-The template element is basically use to create tables that are going to be show or loaded in a certain time. They will appear once the user loads the page we could say that is use to load the page dynamically. </p>
+        <p>-It works with JavaScript.</p>
+        <p>-The Template element only has global attributes</p>
+        <hr>
+
+        <h2>Part 2</h2>
+        <h3>Ch10: Testing and Debugging Completed</h3> 
+        <p>-It is important to remember that there could be three types of error. Once we identify the error, we should consider into what category it belongs.</p>
+        <ol>
+            <li>System Error (Problems with Devices – External errors)</li>
+            <li>Programmer error (The most common error, Some examples: syntax, faulty logic, etc.)</li>
+            <li>User error (When the user enters incorrect information, integers when is requesting strings, etc.)</li>
+        </ol>
+    
+
+        <h3>Exceptions</h3>
+        <p>I rarely use this method, but I think it is a good practice because errors are handled in a professional way. (In other words, you are aware of future possible errors)</p>
+
+        <h3>Use Strict</h3>
+        <p>A state that can be applied to JavaScript in which the syntax rules are stricter. This helps us to have a better expression when writing code and thus make fewer errors related to syntax.</p>
+        <h3>Debugging in the browser</h3>
+        <p>Personally, I think this is one of the most effective ways to remove bugs. The browser allows you to see it visually and at the same time see when the errors were made.</p>
+        <p>The use of Break points is very effective to section the code and recognize more the parts and the reasons that lead to errors.</p><hr><br>
+        
+        <h4>NOTE: I should learn more about how to use the browser tools to detect bugs or problems.</h4>
+
+        <h3>How Single Page Application Works Completed</h3>    
+        <p>I think that one-page applications have many benefits such as they are easy to load (they require less internet), they are reusable and they load faster.</p>
+
+     
+        <h3>Session History</h3>
+        <p>The browser takes the path and can look to the previous pages as well using number locations such as -1, or others.</p>
+        
+        <h4>The problem with Single page Apps Completed</h4>
+
+        <h3>The HTML5 Template element Completed</h3> 
+
+        <p> After reading about template element and using it in the individual assignment from this week I was able to see and learn about its potential. 
+            Definition of Template element: “it provides an easy way to define a reusable fragment of HTML that can be manipulated just like you would the contents of the document itself, but without the overhead of actually updating the DOM or having to compile and parse strings of HTML.”</p><br>
+        <p>In my own words is a segment of code that could be reusable and manipulated.</p><br>
+
+        <p>To have an efficient implementation of the template element, it is necessary to create it as a container, then only change some attributes so that it can be used dynamically.</p>
+
+    </main>
+
+    <footer>
+        &copy; <span id="currentyear"></span> | Helaman Rodrigues | São Paulo, Brasil |
+        <a href="readings.html">Portal Home Page</a> |
+        <a href="https://www.byui.edu/online">BYU Online Learning</a>
+        <p>Last Updated: <span id="lastmod"></span></p>
+    </footer>
+    <script src="js/currentdate.js"></script>
+  </body>
+
