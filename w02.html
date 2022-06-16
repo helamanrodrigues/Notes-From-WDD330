@@ -68,7 +68,38 @@
         <p>-It works with JavaScript.</p>
         <p>-The Template element only has global attributes</p>
         <hr>
-        
+
+        <h2>Part 2</h2>
+
+        <h3>Chapter Summary</h3>
+        <ul>
+          <li>Bugs are unavoidable in code, and it’s best to find them early rather than later.</li>
+          <li>JavaScript can be put into strict mode using the string "use strict". This can be used in a whole file or just a single function.</li>
+          <li>Linting tools can be used to ensure your code follows good practice and conventions.</li>
+          <li>Feature detection can check whether a method is supported before calling it, helping to avoid an exception being thrown.</li>
+          <li>The console and browser’s built-in debugging tool can be used to interactively find and fix bugs in code.</li>
+          <li>Exceptions can be thrown using the throw statement.</li>
+          <li>An error object is created when an exception occurs.</li>
+          <li>Any code placed inside a try block will pass any error objects to a catch block when an exception occurs. Any code inside a finally block will run if an exception does or does not occur.</li>
+          <li>Test-driven development is the practice of writing tests that fail, then writing the code that passes the test, then refactoring the code every time a new feature is implemented.</li>
+          <li>The Jest framework can be used to test your code.</li>
+        </ul>
+
+        <h3>Review about Single Pages </h3>
+        <p>Single-page applications control navigation so that we re-use the active Document instead of sending a request to a server.</p>
+        <p>Routers are typically used to power route matching within a single-page application. Route matching is done when the location changes, determines which route matches the new location, and then triggers a re-render of the application.</p>
+        <p>In-app navigation is performed using the History API. The default click behavior for anchors is overridden to use pushState() and replaceState() to navigate. A popstate event listener is used to detect navigation with the browser’s forward/back buttons. The click handler and event listener should both inform the router about the navigation to trigger the route matching cycle.</p>
+
+        <h3>The HTML5 Template element Completed</h3> 
+
+        <p> After reading about template element and using it in the individual assignment from this week I was able to see and learn about its potential. 
+            Definition of Template element: “it provides an easy way to define a reusable fragment of HTML that can be manipulated just like you would the contents of the document itself, but without the overhead of actually updating the DOM or having to compile and parse strings of HTML.”</p><br>
+        <p>In my own words is a segment of code that could be reusable and manipulated.</p><br>
+
+        <p>To have an efficient implementation of the template element, it is necessary to create it as a container, then only change some attributes so that it can be used dynamically.</p>
+
+        <h4>NOTE: I should learn more about how to use the browser tools to detect bugs or problems.</h4>
+
     </main>
 
     <footer>
