@@ -63,3 +63,10 @@ ul a:hover{
 footer a {
   color: white;
 }
+
+main a {
+  color: black;
+  padding: 18em 18em;
+}
+
+
