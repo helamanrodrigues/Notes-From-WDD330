@@ -64,9 +64,11 @@ footer a {
   color: white;
 }
 
-main a {
+.test {
   color: black;
-  padding: 18em 18em;
+  display: flex;
+  justify-content: center;
 }
+
 
 
